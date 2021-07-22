@@ -32,5 +32,16 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/acme-jx/values.yaml.gotmpl
   - jx-values.yaml
+- chart: jxgh/local-external-secrets
+  version: 0.0.14
+  name: local-external-secrets
+  values:
+  - jx-values.yaml
+- chart: jxgh/jx-build-controller
+  version: 0.3.3
+  name: jx-build-controller
+  values:
+  - ../../versionStream/charts/jxgh/jx-build-controller/values.yaml.gotmpl
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
