@@ -29,7 +29,7 @@ jxRequirements:
     domain: change.me
     externalDNS: false
     kind: ingress
-    namespaceSubDomain: -cert-manager.
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
