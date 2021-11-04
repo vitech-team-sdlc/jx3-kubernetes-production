@@ -6,6 +6,6 @@ upstream:
   type: git
   git:
     commit: c0963270a8258660982788716893e403edbb5463
-    repo: https://github.com/vitech-team/jx3-versions.git
+    repo: https://github.com/vitech-team/jx3-versions
     directory: /
     ref: master
